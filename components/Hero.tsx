@@ -1,12 +1,13 @@
-
 import React from 'react';
+import profileImage from '../assets/imgs/pfp2.jpg';
+import resumeFile from '../assets/files/Kumail-Abbas_CV.pdf';
 
 const Hero: React.FC = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center text-center">
       <div className="max-w-4xl mx-auto py-20">
         <img
-          src="/assets/imgs/pfp2.jpg"
+          src={profileImage}
           alt="Syed Kumail Abbas"
           className="w-40 h-40 rounded-full mx-auto mb-6 border-4 border-border-color shadow-lg"
         />
@@ -28,8 +29,10 @@ const Hero: React.FC = () => {
           </a>
 
           <a
-            href="/assets/files/Kumail-Abbas_CV.pdf"
-            download
+            href={resumeFile}
+            download="Syed_Kumail_Abbas_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full sm:w-auto bg-secondary text-text-primary font-bold py-3 px-8 rounded-md border border-border-color hover:bg-border-color transition-transform transform hover:scale-105 duration-300 shadow-lg"
           >
             Download Resume
