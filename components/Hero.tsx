@@ -1,6 +1,6 @@
 import React from 'react';
 import profileImage from '../assets/imgs/pfp2.jpg';
-import resumeFile from '../assets/files/Kumail-Abbas_CV.pdf';
+import resumeFile from '../assets/files/resume.pdf';
 
 const Hero: React.FC = () => {
   return (
