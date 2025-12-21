@@ -1,6 +1,6 @@
 import React from 'react';
 import profileImage from '../assets/imgs/pfp2.jpg';
-import resumeFile from '../assets/files/Kumail-Abbas_CV.pdf';
+import resumeFile from '../assets/files/resume.pdf';
 
 const Hero: React.FC = () => {
   return (
@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
 
           <a
             href={resumeFile}
-            download="Syed_Kumail_Abbas_Resume.pdf"
+            download="Syed_Kumail_Abbas_Resume"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto bg-secondary text-text-primary font-bold py-3 px-8 rounded-md border border-border-color hover:bg-border-color transition-transform transform hover:scale-105 duration-300 shadow-lg"

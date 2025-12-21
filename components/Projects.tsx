@@ -3,9 +3,17 @@ import ProjectCard from './ProjectCard';
 import movieWebImage from '../assets/imgs/movieweb.png';
 import alphaCarImage from '../assets/imgs/alphacar.png';
 import carpoolImage from '../assets/imgs/carpool.png';
-import passwordImage from '../assets/imgs/password.png';
+import passwordImage from '../assets/imgs/modernbiz.png';
 
 const projectsData = [
+    {
+    title: 'Carpool Management',
+    description: 'A dynamic ride-sharing interface displaying active routes with driver details, passenger info, and zone tracking. Features interactive controls and organized data tables for efficient carpool coordination. Built with modern web technologies and state management.',
+    imageUrl: carpoolImage,
+    tech: ['Next.js', 'Tailwind CSS', 'TypeScript'],
+    liveUrl: 'https://tracking-carpool-a.vercel.app/',
+    githubUrl: 'https://github.com/Kumailabbass/tracking-carpool.git'
+  },
   {
     title: 'Movie E-commerce Platform',
     description: 'A frontend showcase of an online movie store. Features a curated film selection, interactive shopping cart, and dynamic price calculation—demonstrating modern UI/UX principles and functional cart management.',
@@ -22,20 +30,13 @@ const projectsData = [
     liveUrl: 'https://alfa-romeo-skar.netlify.app/',
     githubUrl: 'https://github.com/Kumailabbass/WEB-ALFAROMEO.git'
   },
+
   {
-    title: 'Carpool Management',
-    description: 'A dynamic ride-sharing interface displaying active routes with driver details, passenger info, and zone tracking. Features interactive controls and organized data tables for efficient carpool coordination. Built with modern web technologies and state management.',
-    imageUrl: carpoolImage,
-    tech: ['Next.js', 'Tailwind CSS', 'TypeScript'],
-    liveUrl: 'https://tracking-carpool.vercel.app/',
-    githubUrl: 'https://github.com/Kumailabbass/tracking-carpool.git'
-  },
-  {
-    title: 'Password Generator Tool',
-    description: 'A simple web utility that generates secure random passwords with customizable options. Built with HTML, CSS, and JavaScript to demonstrate DOM manipulation and user interaction handling.',
+    title: 'ModernBiz Business',
+    description: 'ModernBiz is a high-performance, responsive business platform built with React for dynamic user interfaces and Tailwind CSS for streamlined, modern styling.',
     imageUrl: passwordImage,
-    tech: ['HTML', 'CSS', 'JS'],
-    liveUrl: 'https://s-kumail-abbas-psw-generator-js.netlify.app/',
+    tech: ['Reactjs', 'TailwindCSS'],
+    liveUrl: 'https://ska-business.vercel.app/',
     githubUrl: '#'
   }
 ];
